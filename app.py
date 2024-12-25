@@ -6,6 +6,7 @@ from marshmallow import fields, ValidationError
 import mysql.connector
 from mysql.connector import Error
 
+# initialize the Flask app
 app = Flask(__name__)
 ma = Marshmallow(app)
 
